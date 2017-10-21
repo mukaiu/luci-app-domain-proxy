@@ -1,8 +1,9 @@
+
+include $(TOPDIR)/rules.mk
+
 PKG_NAME:=luci-app-ipset-list
 PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
-
-include $(TOPDIR)/rules.mk
 
 PKG_LICENSE:=GPLv3
 PKG_LICENSE_FILES:=LICENSE
@@ -13,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 define Package/luci-app-ipset-list
-    SECTION:=luci
+	SECTION:=luci
 	CATEGORY:=LuCI
 	TITLE:=Domain Proxy for shadowsocks
 endef
