@@ -13,6 +13,15 @@ include $(INCLUDE_DIR)/package.mk
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
+define Package/Prepare
+endef
+
+define Build/Configure
+endef
+
+define Build/Compile
+endef
+
 define Package/luci-app-ipset-list
 	SECTION:=luci
 	CATEGORY:=LuCI
