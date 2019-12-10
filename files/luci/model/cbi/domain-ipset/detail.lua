@@ -19,7 +19,7 @@ function o.write(self, section, value)
 	rule ='#Server&Ipset List\n'
 
 	for w in string.gmatch(value,"([^\n]+)") do
-		rule = rule..'server=/'..w..'/192.168.99.120#53\n'
+		rule = rule..'server=/'..w..'/127.0.0.1#5053\n'
 		rule = rule..'ipset=/'..w..'/ssfw\n'
 	end
 
