@@ -25,7 +25,7 @@ function o.write(self, section, value)
 
 	fs.writefile("/etc/dnsmasq.d/ssfw.conf", rule)
 
-	luci.sys.call("/etc/init.d/dnsmasq restart")
+	luci.sys.call("/etc/init.d/dns-proxy restart")
 end
 
 return f
