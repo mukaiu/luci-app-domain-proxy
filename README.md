@@ -1,3 +1,3 @@
-# luci-app-ipset-list
+# luci-app-domain-proxy
 
-配合 dnsmasq-full ipset 使用
+配合 dnsmasq-full ipset redsocks 使用

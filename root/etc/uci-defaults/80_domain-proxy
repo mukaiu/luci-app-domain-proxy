@@ -1,7 +1,0 @@
-#!/bin/sh
-
-touch /etc/config/domain-proxy
-uci add domain-proxy proxy
-uci commit
-
-return 0
